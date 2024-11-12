@@ -1,0 +1,25 @@
+body{
+    background-color: #0072C6;
+    height: fit-content;
+}
+
+.col-lg-8{
+    display: flex;
+    justify-content: left;
+    margin-top: 30px;
+    filter: drop-shadow(70%);
+    background-color: rgb(152, 152, 152);
+    border-radius: 10px;
+}
+.container{
+    height: 100%;
+    background-color: white;
+}
+
+.col-lg-12{
+    margin-top: 20px;
+}
+
+.col-lg-5{
+    margin-bottom: 20px;
+}

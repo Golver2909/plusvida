@@ -193,6 +193,9 @@ body {
 .row{
   display: flex;
   justify-content: center;
+  text-align: center;
+  padding-top: 45px;
+  padding-bottom: 45px;
 }
 
 .col-lg-6{
