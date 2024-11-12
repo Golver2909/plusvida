@@ -189,3 +189,40 @@ body {
 .access-button:hover {
   background-color: #005A9E;
 }
+
+.row{
+  display: flex;
+  justify-content: center;
+}
+
+.col-lg-6{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: #0072C6;
+  border-radius: 10px;
+}
+
+.col-lg-4{
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.col-lg-12{
+  margin-bottom: 15px;
+}
+
+.btn-secondary{
+  min-width: 700px;
+  max-height: 50px;
+}
+
+.col-lg-10{
+  display: flex;
+  justify-content: right;
+}
+.btn-success{
+  margin-top: 100px;
+  margin-right: 70px;
+}

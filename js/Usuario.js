@@ -75,7 +75,7 @@ function iniciarSesion() {
     }
 
     localStorage.setItem('usuarioLogueado', nombreUsuario);
-    alert("Felicidades usuario logeado: " + nombreUsuario);
+    alert("Felicidades usuario logueado: " + nombreUsuario);
     location.href = "index.html";
 }
 
