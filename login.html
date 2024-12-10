@@ -1,49 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Formulario de Acceso</title>
-    <link
-      href="https://fonts.googleapis.com/css?family=Nunito&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Overpass&display=swap"
-      rel="stylesheet"
-    />
-    <script src="./js/Usuario.js"></script>
-    <!-- Link hacia el archivo de estilos css -->
-    <link rel="stylesheet" href="./css/login.css" />
-  </head>
-  <body>
-    <div class="navbar">
-      <span class="menu-icon"></span>
 
-      <a href="index.html"
-        ><div class="navbar-brand">PLUS VIDA <span>+</span></div></a
-      >
-    </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Formulario de Acceso</title>
+  <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Overpass&display=swap" rel="stylesheet" />
+  <script src="./js/Usuario.js"></script>
+  <!-- Link hacia el archivo de estilos css -->
+  <link rel="stylesheet" href="./css/login.css" />
+</head>
 
-    <div id="contenedor">
-      <div id="central">
-        <div id="login">
-          <div class="titulo">Bienvenido</div>
-          <form  action="login.html">
-            <input type="text" placeholder="Nombre de Usuario" id="nombre" />
+<body>
+  <div class="navbar">
+    <span class="menu-icon"></span>
 
-            <input type="password" placeholder="Contraseña" id="contraseña" />
+    <a href="index.html">
+      <div class="navbar-brand">PLUS VIDA <span>+</span></div>
+    </a>
+  </div>
 
-            <button  onclick="iniciarSesion()"></button>
-          </form>
-          <div class="pie-form">
-            <a href="register.html">¿No tienes Cuenta? Registrate</a>
-          </div>
-        </div>
-        <div class="inferior">
-          <a href="">Volver</a>
+  <div id="contenedor">
+    <div id="central">
+      <div id="login">
+        <div class="titulo">Bienvenido</div>
+        <form action="login.html">
+          <input type="text" placeholder="Nombre de Usuario" id="nombre" />
+
+          <input type="password" placeholder="Contraseña" id="contraseña" />
+
+          <button onclick="iniciarSesion()"></button>
+        </form>
+        <div class="pie-form">
+          <a href="register.html">¿No tienes Cuenta? Registrate</a>
         </div>
       </div>
+      <div class="inferior">
+        <a href="">Volver</a>
+      </div>
     </div>
-  </body>
+  </div>
+</body>
+
 </html>

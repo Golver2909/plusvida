@@ -1,30 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PLUSVIDA - Sacar turnos</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/turnos.css">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="./js/turnos.js" defer></script>
 </head>
+
 <body>
     <!-- Navbar -->
     <div class="navbar">
         <span class="menu-icon"></span>
-        <div class="navbar-brand">PLUS VIDA <span>+</span></div>
+        <div class="navbar-brand" href="index.html">PLUS VIDA <span>+</span></div>
         <div class="navbar-buttons">
-         <p id="nombre1">aun no se loguea</p>
-         <a href="index.html">Inicio</a>
-          <a href="login.html">LOGIN</a>
-          <a href="register.html">Registrate</a>
-          <a href="historial.html">Historial</a>
-          <a href="turnos.html">TURNOS</a>
+            <p id="nombre1">Aun no se loguea</p>
+            <a href="index.html">Inicio</a>
+            <a href="login.html">LOGIN</a>
+            <a href="register.html">Registrate</a>
+            <a href="historial.html">Historial</a>
+            <a href="turnos.html">TURNOS</a>
         </div>
-      </div>
+    </div>
     <div class="container">
         <div class="row">
             <h2>Reserve su turno</h2>
@@ -34,41 +39,47 @@
                         <div class="input-group mb-3">
                             <label class="input-group-text" for="especialidad">-</label>
                             <select class="form-select" id="especialidad">
-                              <option selected disabled>Seleccione la especialidad que desee...</option>
-                              <option value="dermatologia">Dermatologia</option>
-                              <option value="oftalmologia">Oftalmologia</option>
-                              <option value="oncologia">Oncologia</option>
-                              <option value="radiologia">Radiologia</option>
+                                <option selected disabled>Seleccione la especialidad que desee...</option>
+                                <option value="dermatologia">Dermatologia</option>
+                                <option value="oftalmologia">Oftalmologia</option>
+                                <option value="oncologia">Oncologia</option>
+                                <option value="radiologia">Radiologia</option>
                             </select>
-                          </div>
-                          
+                        </div>
+
                     </div>
                     <div class="col-lg-12">
                         <div class="input-group mb-3">
                             <span class="input-group-text" id="basic-addon1">-</span>
-                            <input id="nombre_apellido" type="text" class="form-control" placeholder="Ingrese nombre y apellido del paciente" aria-label="Username" aria-describedby="basic-addon1">
-                        </div>           
+                            <input id="nombre_apellido" type="text" class="form-control"
+                                placeholder="Ingrese nombre y apellido del paciente" aria-label="Username"
+                                aria-describedby="basic-addon1">
+                        </div>
                     </div>
                     <div class="col-lg-12">
                         <div class="input-group mb-3">
                             <span class="input-group-text" id="basic-addon1">-</span>
-                            <input id="fecha" type="date" class="form-control" placeholder="Seleccione fecha del estudio" aria-label="Username" aria-describedby="basic-addon1">
-                        </div>           
+                            <input id="fecha" type="date" class="form-control"
+                                placeholder="Seleccione fecha del estudio" aria-label="Username"
+                                aria-describedby="basic-addon1">
+                        </div>
                     </div>
                     <div class="col-lg-12">
                         <div class="input-group mb-3">
                             <span class="input-group-text" id="basic-addon1">-</span>
-                            <input id="hora" type="time" class="form-control" placeholder="Seleccione hora del estudio" aria-label="Username" aria-describedby="basic-addon1">
-                        </div>           
+                            <input id="hora" type="time" class="form-control" placeholder="Seleccione hora del estudio"
+                                aria-label="Username" aria-describedby="basic-addon1">
+                        </div>
                     </div>
                     <div class="col-lg-5">
                         <button type="button" class="btn btn-dark" onclick="reservarTurno()">Reservar turno</button>
-    
+
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    
+
 </body>
+
 </html>
